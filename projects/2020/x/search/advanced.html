@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar-nav">
+                <a href="index.html">Google Search</a>
+            </div>
+        </div>
+        <div class="container">
+            <img class="aLogo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+            <div class="inputTitle">
+                <p class="atitle">Advanced Search</p>
+                <p class="titletitle">Find pages with...</p>
+                <div class="titles">
+                    <label for="inputid">all these words:</label>
+                    <br>
+                    <label for="inputid">any of these words:</label>
+                    <br>
+                    <label for="inputid">this exact words or phrase:</label>
+                    <br>
+                    <label for="inputid">none of these words:</label>
+                </div>
+            </div>
+            <div class="inputInput">
+                <form action="https://google.com/search">
+                <input class="advancedform" type="text" id="inputid" name="as_q">
+                <input class="advancedform" type="text" id="inputid" name="as_epq">
+                <input class="advancedform" type="text" id="inputid" name="as_oq">
+                <input class="advancedform" type="text" id="inputid" name="as_eq">
+                <button class="buttonA">
+                    <input class="buttonSubmit" type="submit" value="Advanced Search">
+                </button>
+                </form>
+            </div>
+        </div> 
+        <div class="clear"></div>
+    </body>
+</html>
+
+<!--GET
+https://www.google.com/search?
+as_q
+=tri-colour rat terrier
+&as_epq
+=rat terrier
+&as_oq
+=miniature OR standard
+&as_eq
+=-rodent
+-->
