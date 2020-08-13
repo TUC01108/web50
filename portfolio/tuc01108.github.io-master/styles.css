@@ -1,0 +1,191 @@
+.navbar {
+    position: absolute;
+    right: 0;
+    margin: 15px;
+    font-size: 15px;
+    font-style: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+#link-item {
+    padding: 5px;
+}
+
+.logo {
+    position: absolute;
+    right: 39%;
+    top: 24%;
+    height: 14%;
+    margin-top: -4px;
+}
+
+.inputbubble {
+    border-radius: 30px 30px 30px 30px;
+    width: 470px;
+    height: 40px;
+    margin: 20px;
+    margin-right: -120px;
+    margin-top: 5px;
+    position: absolute;
+    right: 40%;
+    top: 40%;
+    outline: none;
+}
+
+.searchbutton {
+    background: none !important;
+    border: 0;
+    font-size: 1.3em;
+    font-family: Roboto-Light;
+    color: rgba(77, 75, 75, 0.767);
+    margin-left: -2px;
+}
+
+.buttonL {
+    border: 0;
+    padding: 8px 9px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    float: right;
+    position: absolute;
+    right: 0%;
+    margin-right: 475px;
+    margin-top: 322px;
+    width: 130px;
+    height: 36px;
+}
+
+.luckybutton {
+    background: none !important;
+    border: 0;
+    font-size: 1.3em;
+    font-family: Roboto-Light;
+    color: rgba(77, 75, 75, 0.767);
+    margin-left: -2px;
+}
+
+.mainSearch .buttonL .luckybutton {
+    background-color: rgb(241, 240, 240);
+    float: center;
+}
+
+.mainSearch .buttonM, .imageSearch .buttonM {
+    background-color: rgb(241, 240, 240);
+    border: 0;
+    padding: 8px 9px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    float: center;
+    margin-right: 610px;
+    margin-top: 322px;
+    width: 130px;
+    height: 36px;
+}
+
+.mainSearch .buttonM .searchButton {
+    position: absolute;
+    right: 46%;
+    top: 52%;
+    text-decoration: none;
+}
+
+.buttonM {
+    background-color: rgb(66 133 244);
+    border: 0;
+    color: white;
+    padding: 8px 9px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    float: right;
+    margin-right: -157px;
+}
+.buttonA {
+    background-color: rgb(66 133 244);
+    border: 0;
+    color: white;
+    padding: 8px 9px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    float: right;
+    margin-right: -157px;
+}
+.buttonA > .buttonSubmit {
+    background: none !important;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    font-size: 12px;
+    font-family: Roboto-Medium;
+}
+
+.container {
+    width: 600px;
+    padding-right: 20px;
+    display: inline-block;
+    margin-left: 39px;
+    font-family: Roboto-Medium;
+}
+
+.inputTitle {
+    margin-top: 58px;
+    width: 200px;
+    float: left;
+}
+.titletitle {
+    margin-top: 70px;
+    font-size: 1em;
+    color: rgb(48, 48, 48);
+    font-family: Roboto-Light;
+}
+.titles {
+    margin-top: -5px;
+    line-height: 2.5em;
+    font-family: Roboto-Light;
+    font-size: .85em;
+
+}
+
+.inputInput {
+    margin-top: 195px;
+    width: 400px;
+    float: left;
+    line-height: 2.5em;
+}
+
+.clear {
+    clear: both;
+}
+.advancedform {
+    width: 550px;
+    height: 20px;
+}
+
+.atitle {
+    color: rgba(201, 46, 46, 0.938);
+    font-size: 1.24em;
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(/Users/patriciawinter/Desktop/Thomas_programs/cs50w/fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(/Users/patriciawinter/Desktop/Thomas_programs/cs50w/fonts/Roboto/Roboto-Light.ttf);
+}
+
+.aLogo {
+    position: absolute;
+    float: left;
+    left: 0%;
+    scale: 17%;
+    margin-left: -210px;
+    margin-top: -68px;
+}
