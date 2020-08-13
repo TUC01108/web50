@@ -1,29 +1,741 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    <html lang="nl">
     <head>
-        <title>Search</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="xrplns" content="27a0dcb2468920a2c318d25e06e226d3a2dff239">
+                                                    <meta name="monetization" content="$ilp.uphold.com/BF6BWwHfmkKr" />
+                <meta name="author" content="Wietse">
+        <meta name="twitter:creator" content="@WietseWind" />
+                                    <title>Wietse: XRPL Projects</title>
+                    
+        <meta name="api_csrf" content="1.1597354328.498515d595bc003cdf9eb5af6e100a88">
+
+        <link rel="icon" href="https://wietse.com/static/1j8NoQ6T_400x400.jpg">
+
+        <!-- <link rel="stylesheet" href="https://wietse.com/static/css/main-dist.css"> -->
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+                <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+
+
+        <base href="https://wietse.com/" />
+
+        <link rel="shortcut icon" type="image/x-icon" href="https://wietse.com/static/1j8NoQ6T_400x400.jpg">
+
+        <!-- <script src="https://wietse.com/static/js/scripts.js"></script> -->
+
         
-        <link rel="stylesheet" href="styles.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
     </head>
-    <body>
-        <div class="navbar">
-            <div class="navbar-nav">
-                <a id="link-item" href="images.html">Images</a>
-                <a id="link-item" href="advanced.html">Advanced</a>
+
+    <body class="" role="document">
+
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<br />
+
+<style>
+    table span.badge {
+        float: right;
+        margin-left: 8px;
+    }
+</style>
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-12 col-md-3 col-xl-2">
+            <div class="card mb-3">
+            <a href="/">
+                  <img class="card-img-top" src="static/1j8NoQ6T_400x400.jpg" alt="Wietse" />
+                </a>
+              <div class="card-body mb-0 pb-1">
+                <p class="card-text text-center">
+                    <b>Wietse Wind</b>
+                </p>
+              </div>
+                 <div class="text-center mb-3">
+                     <a href="/bio">Bio <i class="fa fa-arrow-right"></i></a>
+                 </div>
             </div>
         </div>
-        <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-        <div class="mainSearch">
-            <form action="https://google.com/search">
-                <input class="inputbubble" type="text" name="q">
-                <br>
-                <button class="buttonM">
-                <input class="searchbutton" name="btnK" type="submit" value="Google Search">
-                </button>
-                <button class="buttonL">
-                    <input class="luckybutton" name="btnI" type="submit" value="I'm Feeling Lucky">
-                </button>
-            </form>
+        <div class="col-12 col-md-9 col-xl-10">
+            <div class="row">
+                <div class="col-12">
+                     <div class="pull-right text-center d-block d-md-inline float-right">
+                         <div class="d-inline-block d-md-none" style="border: 1px solid transparent; position: relative; display: inline-block; margin-left: -70px;"></div>
+                          <a amount="0.75" size="275" to="WietseWind" network="twitter" href="https://www.xrptipbot.com" target="_blank"></a>
+                            <script async src="https://www.xrptipbot.com/static/donate/tipper.js" charset="utf-8"></script>
+                    </div>
+                    <h1>XRPL Projects</h1>
+                    <div class="text-center">
+                        <span class="badge badge-primary">INFRA</span>
+                        <span class="badge badge-secondary">IOT / IOV</span>
+                        <span class="badge badge-success">XRP</span>
+                        <span class="badge badge-danger">SOCIAL</span>
+                        <span class="badge badge-warning">DATA</span>
+                        <span class="badge badge-info">TOOLS</span>
+                        <span class="badge badge-dark">CODE SAMPLES</span>
+                        <span class="badge badge-light">PRESENTATION</span>
+                    </div>
+                    <br />
+                    <div class="table-responsive">
+                        <table class="table table-condensed table-hover table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th width="140">State</th>
+                                    <th>Link</th>
+                                </tr>
+                            </thead>
+                            <tbody class="alert-success">
+                                <tr class="border-bottom">
+                                    <td>
+                                        <b>My recent Github projects</b>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind?tab=repositories" target="_blank">Check my <i class="fa fa-github"></i> Github repository</a><br />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>XRPL Labs recent Github projects</b>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://github.com/XRPL-Labs?tab=repositories" target="_blank"><i class="fa fa-github"></i> XRPL Labs repository</a><br />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>XUMM (XRPL Labs)</b>
+                                        <span class="badge badge-danger">APP</span>
+                                        <br />
+                                        <small>XRPL wallet with superpowers, platform for decs, etc.</small>
+                                    </td>
+                                    <td>Public Beta</td>
+                                    <td>
+                                        <a href="https://xumm.dev/beta" target="_blank">xumm.dev/beta</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody class="alert-warning">
+                                <tr>
+                                    <td>
+                                        XRP TipBot V2
+                                        <span class="badge badge-danger">SOCIAL</span>
+                                        <br />
+                                        <small>Lots of new features</small>
+                                    </td>
+                                    <td>Pre-Dev (design)</td>
+                                    <td>
+                                        <a href="https://www.figma.com/file/MPOnCCInTsGWcOxb3NSyqnnd/IA?node-id=0%3A1" target="_blank">Design by @oscarmanxz</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>XRPL DEX Bank</b> (Long way to go!)
+                                                                                <br />
+                                        <small><a href="https://twitter.com/WietseWind/status/1120630685327339520?s=19">EUR issued *on ledger* by an actual bank.</a></small>
+                                    </td>
+                                    <td>Paperwork</td>
+                                    <td>
+                                                                            </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Accounts and destination tag encoding <a href="https://xrpaddress.com" target="_blank"><b>into X-addresses</b></a>
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/xrp-community/xrpl-tagged-address-codec#readme" target="_blank"><i class="fa fa-github"></i> Source</a> 
+                                        <a href="https://www.npmjs.com/package/xrpl-tagged-address-codec" target="_blank">NPM</a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Fill history XRPL node community cluster <a href="https://xrpl.ws" target="_blank"><b>wss://xrpl.ws</b></a>
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Paper account generator <a href="https://www.xrpaddress.org/" target="_blank">https://xrpaddress.org</a>
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/XRP-Paper-Account" target="_blank"><i class="fa fa-github"></i> Source</a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRPL destination string decoder
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/XRPL-Labs/xumm-string-decode" target="_blank"><i class="fa fa-github"></i> Source</a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Proof of Concept: ILP Monetized music player
+                                        <span class="badge badge-dark">POC</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/Music-Web-Monetized-POC" target="_blank"><i class="fa fa-github"></i> Source</a> 
+                                        <a href="https://dist.wietse.now.sh/" target="_blank"><i class="fa fa-globe"></i> Demo</a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Rippled Websocket proxy (load balancing / redundancy)</a>
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/rippled-ws-proxy" target="_blank"><i class="fa fa-github"></i> Source</a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Account secret based on numbers instead of a family seed / mnemonic
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/xrpl-secret-numbers#readme" target="_blank"><i class="fa fa-github"></i> Source</a> 
+                                        <a href="https://www.npmjs.com/package/xrpl-secret-numbers" target="_blank">NPM</a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRP Community Fund
+                                        <br />
+                                        <small>(Small) fund to support XRPL development by community developers, etc.</small>
+                                    </td>
+                                    <td>Getting there</td>
+                                    <td>
+                                        <a href="https://communityfund.xrptipbot.com" target="_blank">Website</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRPay(ments)
+                                        <br />
+                                        <small>iOS and Android App for easy XRP Retail / in-store payments</small>
+                                    </td>
+                                    <td>Live</td>
+                                    <td>
+                                        <a href="https://setup.xrpay.com/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <a href="https://itunes.apple.com/us/app/xrpayments/id1460119072?ls=1&mt=8" target="_blank"><i class="fa fa-apple"></i></a>
+                                        <a href="https://play.google.com/store/apps/details?id=com.xrpllabs.xrpayments" target="_blank"><i class="fa fa-android"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRPL AccountLib: sign with family seed/mnemonic/passphrase
+                                        <span class="badge badge-info">TOOLS</span>
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/xrpl-accountlib" target="_blank"><i class="fa fa-github"></i> Source</a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRPL <b>MultiSign</b> Tool: setup, signing &amp; combining
+                                        <span class="badge badge-info">TOOLS</span>
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/XRPL-MultiSignTool/" target="_blank"><i class="fa fa-github"></i> Source</a> / 
+                                        <a href="https://www.youtube.com/watch?v=1NdRgxvgZAA" target="_blank"><i class="fa fa-youtube"></i> Video</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRP Ledger to Google BigQuery 
+                                        <span class="badge badge-warning">DATA</span>
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/fetch-xrpl-transactions" target="_blank"><i class="fa fa-github"></i> Source</a><br />
+                                        <small><a href="https://gist.github.com/WietseWind/b21bf6289a19237cfbca921cd62e29b8" target="_blank">Sample Query</a></small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRParrot <span class="badge badge-success">XRP</span>
+                                        <br />
+                                        <small>Easy EUR (SEPA) to XRP transfer (Decentralized exchange)</small>
+                                    </td>
+                                    <td>Development</td>
+                                    <td>
+                                        <a href="https://xrparrot.com/" target="_blank">XRParrot.com</a> <br />
+                                        <small>
+                                            <a href="https://github.com/WietseWind/XRParrot-Backend" target="_blank"><i class="fa fa-github"></i> Backend</a> 
+                                            <a href="https://github.com/WietseWind/XRParrot-Frontend" target="_blank"><i class="fa fa-github"></i> Frontend</a>
+                                        </small>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRP TipBot <b>App</b> for iOS and Android (with <a href="https://twitter.com/ThisIsTriss" target="_blank">@ThisIsTriss</a> and <a href="https://twitter.com/baltazar223" target="_blank">@baltazar223</a>)
+                                        <span class="badge badge-danger">SOCIAL</span>
+                                    </td>
+                                    <td>Live</td>
+                                    <td>
+                                        <a href="https://xrptipbot.com/app" target="_blank">xrptipbot.com/app</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Validator (on the Ripple UNL)
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://xrpcharts.ripple.com/#/validators/nHUXeusfwk61c4xJPneb9Lgy7Ga6DVaVLEyB29ftUdt9k2KxD6Hw" target="_blank">XRPCharts</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Full history public node
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://rippled.xrptipbot.com/" target="_blank">wss://rippled.xrptipbot.com</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Ledger.exposed
+                                        <span class="badge badge-info">TOOLS</span>
+                                        <span class="badge badge-success">XRP</span>
+                                        <br />
+                                        <small>Live stats and insights in the XRP distribution, ownership, escrows and the flow of funds</small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://ledger.exposed" target="_blank">ledger.exposed</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRPL Debugging Tool
+                                        <span class="badge badge-info">TOOLS</span>
+                                        <span class="badge badge-success">XRP</span>
+                                        <br />
+                                        <small>Connect to the XRPL, send transactions (JSON), execute commands, etc.</small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://xrp.fans" target="_blank">xrp.fans</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRPL Ledger Stats Fetch &amp; Calc.
+                                        <span class="badge badge-info">TOOLS</span>
+                                        <span class="badge badge-warning">DATA</span>
+                                        <br />
+                                        <small>Fetch the contents for an entire ledger and calculate stats into JSON (like Ledger.exposed)</small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/xrp-ledgerstats" target="_blank"><i class="fa fa-github"></i> Source</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRPTipBot
+                                        <span class="badge badge-danger">SOCIAL</span>
+                                        <span class="badge badge-success">XRP</span>
+                                        <br />
+                                        <small>Social tipping for <i class="fa fa-reddit"></i> Reddit, Discord and <i class="fa fa-twitter"></i> Twitter</small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://xrptipbot.com" target="_blank">xrptipbot.com</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        RunKit
+                                        <span class="badge badge-dark">CODE SAMPLES</span><br />
+                                        <small>All kinds of XRPL code samples for node(.js)</small>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://runkit.com/wietsewind/" target="_blank">runkit.com/WietseWind/</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRP Text: send XRP using SMS Text messages
+                                        <span class="badge badge-success">XRP</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://sms.xrptext.com" target="_blank">sms.xrptext.com</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>             
+                                        <q>rippled-ws-client</q> Simple promise-based WebSocket client for <code class="text-primary alert-primary">rippled</code>
+                                        <span class="badge badge-primary">INFRA</span>
+                                        <br />
+                                        <small>Node(.js) / Browser package</small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/rippled-ws-client" target="_blank"><i class="fa fa-github"></i> Source</a> / 
+                                        <a href="https://github.com/WietseWind/rippled-ws-client/tree/master/samples" target="_blank">Samples</a> / 
+                                        <a href="https://www.npmjs.com/package/rippled-ws-client" target="_blank">NPM</a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        rippled-ws-client-sign
+                                        <span class="badge badge-primary">INFRA</span>
+                                        <br />
+                                        <small>Sign (transactions &amp; MultiSign) extension for <q>rippled-ws-client</q></small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/rippled-ws-client-sign" target="_blank"><i class="fa fa-github"></i> Source</a> / 
+                                        <a href="https://github.com/WietseWind/rippled-ws-client-sign/tree/master/samples" target="_blank">Samples</a> / 
+                                        <a href="https://www.npmjs.com/package/rippled-ws-client-sign" target="_blank">NPM</a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        rippled-ws-client-pool
+                                        <span class="badge badge-primary">INFRA</span>
+                                        <br />
+                                        <small>Extension for <q>rippled-ws-client</q> to connect to multiple <code class="text-primary alert-primary">rippled</code> for redundancy &amp; load balancing</small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/rippled-ws-client-pool" target="_blank"><i class="fa fa-github"></i> Source</a> / 
+                                        <a href="https://www.npmjs.com/package/rippled-ws-client-pool" target="_blank">NPM</a> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <q>rippled-ws-client-dashboard</q> 
+                                        <span class="badge badge-primary">INFRA</span>
+                                        <br />
+                                        <small>Debugging dashboard for <q>rippled-ws-client-pool</q>, TX and query explorer &amp; TX Sign/Submit tool</small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/rippled-ws-client-dashboard" target="_blank"><i class="fa fa-github"></i> Source</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Public ILP Payment Pointer for <i class="fa fa-twitter"></i> Twitter, Discord &amp; <i class="fa fa-reddit"></i> Reddit users
+                                        <span class="badge badge-danger">SOCIAL</span>
+                                        <span class="badge badge-success">XRP</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://twitter.com/WietseWind/status/1034328261428486144" target="_blank"><i class="fa fa-twitter"></i> Info</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Regular Key tool (Air gapped) <q>Toastify</q> Mnemonic-based XRPL accounts
+                                        <span class="badge badge-info">TOOLS</span>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/toastify-ledger" target="_blank"><i class="fa fa-github"></i> Source</a> / 
+                                        <a href="https://www.youtube.com/watch?v=RhZMKvz3sbU&feature=youtu.be" target="_blank"><i class="fa fa-youtube"></i> Video</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRPL Account vanity generator
+                                        <span class="badge badge-info">TOOLS</span>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/xrp-vanity-generator" target="_blank"><i class="fa fa-github"></i> Source</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRPL Account: mnemonic recovery (one word lost/wrong)
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/xrp-mnemonic-recovery" target="_blank"><i class="fa fa-github"></i> Source</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Extract ledger contents (balances &amp; escrows) to MongoDB
+                                        <span class="badge badge-primary">INFRA</span>
+                                        <span class="badge badge-warning">DATA</span>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/XRP-Ledger-to-MongoDB" target="_blank"><i class="fa fa-github"></i> Source</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Get all accounts and balances for a specific ledger
+                                        <span class="badge badge-primary">INFRA</span>
+                                        <span class="badge badge-warning">DATA</span>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://github.com/WietseWind/fetch-xrpl-accounts" target="_blank"><i class="fa fa-github"></i> Source</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRPayments.co: Simple QR XRP payment requests
+                                        <span class="badge badge-info">TOOLS</span>
+                                        <span class="badge badge-success">XRP</span>
+                                        <br />
+                                        <small>With 2-way currency converter</small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://xrpayments.co/" target="_blank">xrpayments.co</a> / 
+                                        <a href="https://github.com/WietseWind/xrpayments.co" target="_blank"><i class="fa fa-github"></i> Source</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        KyteApp (Browser based simple XRP wallet)
+                                        <span class="badge badge-success">XRP</span>
+                                        <br />
+                                        <small>Proof of concept</small>
+                                    </td>
+                                    <td>Deprecated</td>
+                                    <td>
+                                        <a href="https://kyteapp.co/" target="_blank">kyteapp.co</a> / 
+                                        <a href="https://github.com/WietseWind/Zerp-Wallet" target="_blank"><i class="fa fa-github"></i> Source</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Gist (gist.github.com)
+                                        <span class="badge badge-dark">CODE SAMPLES</span><br />
+                                        <small>All kinds of (mostly) XRPL code samples for node(.js) / the web</small>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://gist.github.com/WietseWind" target="_blank">gist.github.com/WietseWind</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Browserify XRPL JS libs.
+                                        <span class="badge badge-dark">CODE SAMPLES</span><br />
+                                        <small></small>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://jsfiddle.net/zy2wbv8p/8/" target="_blank">jsfiddle.net/zy2wbv8p</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code class="text-primary alert-primary">rippled</code> <u>node</u> Docker Container
+                                        <span class="badge badge-primary">INFRA</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://hub.docker.com/r/xrptipbot/rippled/" target="_blank">Docker Hub</a> / 
+                                        <a href="https://github.com/WietseWind/docker-rippled" target="_blank"><i class="fa fa-github"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code class="text-primary alert-primary">rippled</code> <u>validator</u> Docker Container
+                                        <span class="badge badge-primary">INFRA</span>
+                                        <br />
+                                        <small>Blog: <a href="https://xrpcommunity.blog/how-to-run-a-ripple-validator-digitalocean/" target="_blank">XPRCommunity.blog</a> / 
+                                        <a href="https://medium.com/@WietseWind/how-to-run-a-ripple-validator-digitalocean-7e5fca1c3d77" target="_blank">Medium</a></small>
+                                        <br />
+                                        <small>Verify validator: <a href="https://xrpcommunity.blog/verify-your-ripple-validator-show-your-domain/" target="_blank">XPRCommunity.blog</a> / 
+                                        <a href="https://medium.com/@WietseWind/verify-your-ripple-validator-show-your-domain-da19de30b19b" target="_blank">Medium</a>
+                                         / <a href="https://medium.com/@WietseWind/verify-your-ripple-validator-show-your-domain-da19de30b19b" target="_blank">Docker Hub</a>
+                                         / <a href="https://medium.com/@WietseWind/verify-your-ripple-validator-show-your-domain-da19de30b19b" target="_blank"><i class="fa fa-github"></i></a>
+                                        </small>
+                                        <br />
+                                        <small>Update validator: <a href="https://xrpcommunity.blog/updating-your-rippled-docker-container/" target="_blank">XPRCommunity.blog</a> / 
+                                        <a href="https://medium.com/@WietseWind/updating-your-rippled-docker-container-65a298ebae3f" target="_blank">Medium</a></small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="hthttps://hub.docker.com/r/xrptipbot/verify-rippledvalidator/" target="_blank">Docker Hub</a> / 
+                                        <a href="https://github.com/WietseWind/verify-rippledvalidator" target="_blank"><i class="fa fa-github"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        GPIO Power Switch (Raspberry Pi) in ILP Stream
+                                        <span class="badge badge-secondary">IOT / IOV</span>
+                                        <br />
+                                        <small>Blog: <a href="https://xrpcommunity.blog/raspberry-pi-interledger-xp-powerswitch-howto/" target="_blank">XPRCommunity.blog</a> / 
+                                        <a href="https://medium.com/@WietseWind/raspberry-pi-interledger-enabled-power-switch-d6966662b04b" target="_blank">Medium</a></small>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://www.youtube.com/watch?v=c-eS0HQUuJg" target="_blank"><i class="fa fa-youtube"></i> Video</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        TP-Link ILP enabled PowerSwitch &lt; 30$
+                                        <span class="badge badge-secondary">IOT / IOV</span>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://www.youtube.com/watch?v=QjtKNiPP7B8" target="_blank"><i class="fa fa-youtube"></i> Video</a> / 
+                                        <a href="https://github.com/WietseWind/ilp-tplink-smart-plug" target="_blank"><i class="fa fa-github"></i> Source</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Howto: code Vue Webpack + XRPL WebApps
+                                        <span class="badge badge-dark">CODE SAMPLES</span>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://xrpcommunity.blog/develop-awesome-webapps-using-vuejs-webpack-demonstrating-by-building-a-xrp-ledger-integration/" target="_blank">XPRCommunity.blog</a> / 
+                                        <a href="https://itnext.io/develop-awesome-webapps-using-vuejs-webpack-bda08ebb691c" target="_blank">ITNEXT.io</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Bridging.text Meetup: <q><i>Building software on the XRP ledger</i></q>
+                                        <span class="badge badge-light">PRESENTATION</span>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://twitter.com/bridging_tech/status/1024256175162961921" target="_blank"><i class="fa fa-youtube"></i> Video</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Telegraaf Crypto Update (Dutch)
+                                        <span class="badge badge-light">PRESENTATION</span>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://www.telegraaf.nl/video/2521377/voor-miljarden-aan-cryptogeld-spoorloos" target="_blank"><i class="fa fa-youtube"></i> Video</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRP Community Blog
+                                        <span class="badge badge-danger">SOCIAL</span>
+                                        <br />
+                                        <small>Amazing contributions by the XRP Community!</small>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://xrpcommunity.blog" target="_blank">xrpcommunity.blog</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Public / Private key in layman's terms (Blog)
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <a href="https://xrpcommunity.blog/keys-are-key-secret-keys-signing-transactions/" target="_blank">Blog @ XRPCommunity.blog</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        FudBingo.com
+                                        <span class="badge badge-danger">SOCIAL</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="https://fudbingo.com" target="_blank">fudbingo.com</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        CoilChecker
+                                        <span class="badge badge-info">TOOLS</span>
+                                    </td>
+                                    <td>Production</td>
+                                    <td>
+                                        <a href="http://fudbingo.com/coilchecker" target="_blank"><i class="fa fa-external-link"></i>&nbsp;</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        XRP TipBot API
+                                        <span class="badge badge-danger">SOCIAL</span>
+                                    </td>
+                                    <td>Beta</td>
+                                    <td>
+                                        <a href="https://twitter.com/WietseWind/status/1044257068780261376" target="_blank"><i class="fa fa-twitter"></i> Beta invite</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th colspan="100"></th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <br />
+    <br />
+
+</div>
+        
+        <script src="https://polyfill.webmonetization.org/polyfill.js"></script>
+        <script src="https://cdn.coil.com/donate.js"></script>
+        <script>
+            var TwitterCreator = document.querySelector('meta[name="twitter:creator"]')
+            if (TwitterCreator && typeof TwitterCreator.getAttribute('content') === 'string' && TwitterCreator.getAttribute('content') !== '') {
+                TwitterCreator = TwitterCreator.getAttribute('content').replace(/^@/, '')
+                var Destination = '$twitter.xrptipbot.com/' + TwitterCreator
+                console.log('Init Coil to ' + Destination)
+                window.WebMonetizationScripts.donate({
+                    paymentPointer: Destination
+                })
+                            }
+        </script>
     </body>
-</html>
+    </html>
